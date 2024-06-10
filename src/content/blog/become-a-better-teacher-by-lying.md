@@ -4,7 +4,7 @@ description: How telling white lies can make you a better teacher
 publishDate: 'Aug 30 2023'
 ---
 
-How I made our absurdly complex modern software development stack sound reasonable
+## How telling white lies can make you a better teacher, or, "How I made our absurdly complex modern software development stack sound simple"
 
 ![Screenshot of code snippet that says “let true = false”](https://cdn-images-1.medium.com/max/1600/1*lZhzHRahNuc8Y0KDusE3Vg.png)
 

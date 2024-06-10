@@ -4,7 +4,7 @@ description: A work in progress exploration of how our government came to strugg
 publishDate: 'Dec 2 2023'
 ---
 
-### A work in progress exploration of how our government came to struggle with technology
+## A work in progress exploration of how our government came to struggle with technology
 
 Our government wasn’t always behind the curve when it comes to adopting new technology. In the 1950s, Canada Post was an early innovator, with the Liberal government investing heavily in using computers in an urgent attempt to cut costs and manage the increasingly complex sorting that was needed to deliver mail in rapidly urbanizing areas like Toronto ([source](https://www.google.com/search?q=The+Computer+Revolution+in+Canada%3A+Building+National+Technological+Competence&oq=The+Computer+Revolution+in+Canada%3A+Building+National+Technological+Competence&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgYIAhBFGEAyBggDEEUYQDIGCAQQRRg8MgYIBRBFGDzSAQc3NTZqMGoxqAIAsAIA&sourceid=chrome&ie=UTF-8), [article](https://publications.gc.ca/collections/collection_2018/mstc-cstm/NM33-1-17-eng.pdf)).
 

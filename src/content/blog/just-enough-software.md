@@ -4,7 +4,7 @@ description: How to calibrate technology project expectations with reality.
 publishDate: 'Dec 3 2023'
 ---
 
-#### How to calibrate technology project expectations with reality.
+## How to calibrate technology project expectations with reality.
 
 When organizations kick off a new technology initiative, excitement levels often go through the roof. I'd argue that excitement is actually crucially important if we want to go from having the seed of an idea to a starting a _real project_ with a budget and a team. Why couldn’t our user’s experience be as great as Apple, or Uber, or AirBnB? The opportunity to create a great experience is real, and expectations _should_ be set high.
 
