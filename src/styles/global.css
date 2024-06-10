@@ -48,3 +48,11 @@
     }
     */
 }
+
+.feature-image {
+    margin: 4rem 0 6rem 50% !important;
+    transform: translateX(-50%);
+    width: 140%;
+    max-width: 90vw;
+    box-shadow: 0 2px 5px 2px RGBA(0, 0, 0, 0.06);
+}

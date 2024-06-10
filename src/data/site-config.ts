@@ -38,13 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
-    image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
-    },
+    title: 'Russell Hoy',
+    subtitle: 'Building well designed interfaces to solve tricky problems.',
+    description: 'Blog and portfolio for Russell Hoy',
     headerNavLinks: [
         {
             text: 'Home',
@@ -57,10 +53,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Blog',
             href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
         }
     ],
     footerNavLinks: [
@@ -71,36 +63,29 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Github',
+            href: 'https://github.com/moarsel'
         },
         {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/russell-hoy-a3345591/'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://twitter.com/RussellHoy'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hello & Welcome',
+        text: `I'm **Russell Hoy**, a friendly human with a nerdy interest in software development, design, and using those for the public good. 
+        When I'm not thinking about all that stuff, I'm playing some guitar or enjoying some nature-based adventures.`,
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/russell.jpeg',
+            alt: 'Me smiling because of the mountain in the background'
         },
         actions: [
             {
@@ -109,13 +94,8 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    postsPerPage: 12,
+    projectsPerPage: 12
 };
 
 export default siteConfig;
