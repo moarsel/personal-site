@@ -16,7 +16,7 @@ const TitleTag = headingLevel;
             <div class="min-w-64 w-64">
                 <img transition:name={project.slug} class="w-full h-full min-h-0 object-cover shadow rounded-lg" src={'/' + seo?.image?.src} />
             </div>
-            <div>
+            <div transition:name={project.slug + '-title'}>
                 <TitleTag
                     class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
                 >
