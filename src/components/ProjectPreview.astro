@@ -14,7 +14,13 @@ const TitleTag = headingLevel;
     <div class="grow">
         <div class="flex flex-row gap-8 items-center">
             <div class="min-w-64 w-64">
-                <img transition:name={project.slug} class="w-full h-full min-h-0 object-cover shadow rounded-lg" src={'/' + seo?.image?.src} />
+                <img
+                    transition:name={project.slug}
+                    class="w-full h-full min-h-0 object-cover shadow rounded-lg"
+                    src={'/' + seo?.image?.src}
+                    alt={seo?.image?.alt}
+                    width="16rem"
+                />
             </div>
             <div transition:name={project.slug + '-title'}>
                 <TitleTag
