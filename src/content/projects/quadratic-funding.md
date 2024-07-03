@@ -10,11 +10,13 @@ seo:
 
 ## Background
 
-[OpenFund](https://github.com/moarsel/openfund) was my winning submission to the [GitxChange hackathon](https://gitcoin.co/issue/RadicalxChange/GitxChange/5/100023819). It demonstrates how Quadratic Funding (in fiat) can be made as intuitive and perhaps even more compelling than traditional fundraising platforms like Kickstarter or GoFundMe.
+[Quadratic funding](https://www.wtfisqf.com/) (also known as "Plural funding") is a an exciting new way of funding public goods using a mechanism that more optimally represents the actual needs of citizens. Rather than the frequently distorted process we typically use of electing representatives to fight over taxes and budget priorities, Quadratic funding is a decentralized grant matching process that incentivizes citizens to collectively fund shared projects.
+
+RadicalXChange is the organization promoting and researching applications of these new approaches, and they ran a hackathon to experiment with Quadratic funding for fundraising. [OpenFund](https://github.com/moarsel/openfund) was my winning submission to the [GitxChange hackathon](https://gitcoin.co/issue/RadicalxChange/GitxChange/5/100023819). It demonstrates how Quadratic Funding (in fiat currency) can be made as intuitive and perhaps even more compelling than traditional fundraising platforms like Kickstarter or GoFundMe.
 
 # OpenFund
 
-My concept for OpenFund was to take the hackathon challenge and use a modern JAMstack architecture to build a simple, compelling MVP of a Quadratic funding platform. It shows how the financial features needed for better funding of public goods can be quickly built on the [Stripe](https://stripe.com/) platform).
+My concept for OpenFund was to take the hackathon challenge and use a modern front end architecture to build a simple, compelling minimum viable product of a Quadratic funding platform. It shows how the financial features needed for better funding of public goods can be quickly built on the [Stripe](https://stripe.com/) platform).
 
 <img src="/mood-board.png" alt="a scattered collection of screenshots on a zoomed out figma canvas" class="feature-image">
 

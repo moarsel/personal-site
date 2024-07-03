@@ -18,7 +18,7 @@ Sorry, but moving 6 characters in your title tag will not make Google like you m
 
 Here’s a traditional explanation of how Google pull out the best websites for your query: you type something in, Google ranks the most important keywords in your query and figures buckets the intent of your search (local, commercial, informational, etc). Then it looks at its index of websites and balances “over 600” signals to find the best sites. (Things like number of links pointing to the page, whether the keyword is in the title, etc.).
 
-![old infographic of seo best practices](https://cdn-images-1.medium.com/max/1600/1*eJa_nTv9cmNnPiCRTj93bg.png)
+![old infographic of seo best practices](/seo-table.png)
 
 The natural response for an SEO guru is to say, okay, lets deconstruct how important these various signals are and make sure we really optimize those parts of our website.
 

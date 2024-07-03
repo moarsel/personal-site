@@ -4,7 +4,7 @@ description: Here’s a quick way to catch your biggest accessibility problems s
 publishDate: 'Sept 10 2016'
 ---
 
-![smashed computer keyboard](https://cdn-images-1.medium.com/max/1600/1*uM7VCLq_Lx1JSYLUG04jSg.png)
+![smashed computer keyboard](/smashed-keyboard.png)
 
 If you’re a developer, designer, or stakeholder involved in building a web application, you have to make sure your application is accessible to all users. Not only is it the right thing to do (and a legal requirement in most places), but it’s also one of the distinguishing factors of a high quality product.
 
@@ -21,13 +21,13 @@ We all get annoyed when a website uses unnecessary flash animations, breaks the 
 - **Can you access every part of the page?** Do you ever get stuck in a loop or have to use your mouse to access part of the page?
 - **Can you always see where the keyboard is focused**? Can you both hear and see where the keyboard focus is? A common mistake is removing the focus border around buttons.
 
-![button with a blue outline](https://cdn-images-1.medium.com/max/1600/1*3k4e01nNbm7eGpSDZIKJXw.png)
+![button with a blue outline](/bootstrap-button-outline.png)
 
 Don’t make that blue outline invisible! See [http://www.outlinenone.com/](http://www.outlinenone.com/)
 
 - **Are there a large number of links that I have to cycle through before I get to the main content**? If so, you may need to implement [skip links](http://a11yproject.com/posts/skip-nav-links/).
 
-![Skip link example from getbootstrap.com](https://cdn-images-1.medium.com/max/1600/1*zR5G4vK6nSO003j0f0SPDw.png)
+![Skip link example from getbootstrap.com](/skip-button.png)
 
 - **When you focus on an input element, is the label of the element spoken to you**? Do you always understand what the input is for, without relying on visual cues? If not, make sure you are [using labels (not placeholders)](https://html.spec.whatwg.org/multipage/forms.html#attr-input-placeholder) or additional [ARIA attributes](https://www.w3.org/TR/WCAG20-TECHS/ARIA1.html) to describe your fields. Don’t forget to use `aria-describedby` to associate any inline validation errors with your input.
 - **Does voiceover announce the different regions of the page when it loads (main content vs navigation, etc.)**? If not, you may need to change from just using DIVs to using more [semantic HTML5 tags](http://html5doctor.com/nav-element/) to structure your page.

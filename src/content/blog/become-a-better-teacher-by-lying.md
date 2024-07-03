@@ -1,12 +1,12 @@
 ---
 title: Becoming a better teacher by lying
-description: How telling white lies can make you a better teacher
+description: How telling white lies can make you a better teacher.
 publishDate: 'Aug 30 2023'
 ---
 
 ## How telling white lies can make you a better teacher, or, "How I made our absurdly complex modern software development stack sound simple"
 
-![Code snippet that says “let true = false”](https://cdn-images-1.medium.com/max/1600/1*lZhzHRahNuc8Y0KDusE3Vg.png)
+![Code snippet that says “let true = false”](/lettruefalse.png)
 
 _Example simplified for better understanding_
 

@@ -1,6 +1,7 @@
 ---
 title: Computers & Competence in Canadian Government
 description: A work in progress exploration of how our government came to struggle with technology.
+isFeatured: true
 publishDate: 'Dec 2 2023'
 ---
 
@@ -10,7 +11,7 @@ Our government wasn’t always behind the curve when it comes to adopting new te
 
 Since early computers were expensive, the earliest customers were large bureaucracies where the efficiency gains justified the high price. So in addition to subsidizing the R&D of early mainframe systems, the Canadian government was also early adopters of new technologies (Vardalas, 249).
 
-![black and white photo of a punch card computer](https://cdn-images-1.medium.com/max/1600/0*cltkr_B7mpNoOnTO.png)
+![black and white photo of a punch card computer](/punch-card-computer.png)
 
 Computers were used to tally the Census responses in 1961 ([source](https://www12.statcan.gc.ca/census-recensement/2011/ref/about-apropos/history-histoire-eng.cfm)), to do economic forecasting for the Bank of Canada ([source](https://www.bankofcanada.ca/2010/07/fact-sheet-bank-of-canada-celebrates-75-years/)). Through the 1960’s and 70's computers became essential to administering the wave of new social security enhancements under the Pearson New Democrat government (Canadian Pension Plan, Guaranteed income supplement).
 

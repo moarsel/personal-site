@@ -12,8 +12,8 @@ const TitleTag = headingLevel;
 
 <a class:list={['flex justify-between items-start gap-8 group', className]} href={`/projects/${project.slug}/`}>
     <div class="grow">
-        <div class="flex flex-row gap-8 items-center">
-            <div class="min-w-64 w-64">
+        <div class="flex flex-col sm:flex-row gap-8 items-center">
+            <div class="min-w-64 sm:w-64">
                 <img
                     transition:name={project.slug}
                     class="w-full h-full min-h-0 object-cover shadow rounded-lg"
@@ -33,8 +33,8 @@ const TitleTag = headingLevel;
                 {publishDate && <FormattedDate date={publishDate} />}
             </div>
         </div>
-    </div>
-    <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
-        View Project <ArrowRight class="fill-current w-4 h-4" />
+        <div class="hidden font-serif italic opacity-0 transition group-hover:opacity-100 sm:inline-flex sm:gap-1 sm:items-center sm:shrink-0">
+            View Project <ArrowRight class="fill-current w-4 h-4" />
+        </div>
     </div>
 </a>

@@ -1,10 +1,10 @@
 ---
 title: How Aaron Swartz Envisioned Cambridge Analytica in 2012
-description: In recent years, the way we work has undergone a significant transformation, largely due to advancements in technology and changing attitudes toward work-life balance. One of the most notable changes has been the rise of remote work, allowing employees to work from the comfort of their own homes.
+description: Reflection on techno-optimism in the Trump era.
 publishDate: 'June 2 2018'
 ---
 
-I was reading through my old notes when I stumbled on a striking similarity between Aaron Swartz’ explanation of a futuristic “election winning machine”, and Cambridge Analytica’s election machine.
+I was reading through my old notes when I stumbled on a striking similarity between Aaron Swartz’ explanation of a futuristic “election winning machine”, and Cambridge Analytica’s election machine. For those who don't know Swartz, he was an open internet pioneer, programmer, and activist with [a fascinating story](https://www.youtube.com/watch?v=9vz06QO3UkQ&rco=1) who was targetted by the US government and later committed suicide.
 
 Swartz described an electioneering tool that would allow passionate candidates to win elections without being beholden to power brokers. He described a platform that uses social media to gain supporters virally, using A/B tests to determine the optimal talking points, and gamification to bolster data mining, recruitment, and engagement.
 
@@ -46,6 +46,6 @@ Cambridge Analytica may have been effective at manipulating voters (we don’t k
 
 _So are we doomed to fight an arms race in manipulative persuasion for our future elections?_
 
-Maybe. I'd love to write anothe article about **Max Weber**, who predicted that wealthy capitalists would naturally take over political parties and use science to more efficiently garner votes for their private interests. We should think about what would need to change to create election infrastructure that enhances public interests.
+Maybe. I'd love to write anothe article about **Max Weber**, who predicted that wealthy capitalists would naturally take over political parties and use science to more efficiently garner votes for their private interests. We should think about how to avoid this inevitability and what public interest election infrastructure would look like.
 
 _Thanks for reading!_

@@ -11,11 +11,13 @@ seo:
 
 ## Background
 
+[Quadratic voting](https://en.wikipedia.org/wiki/Quadratic_voting) (QV) is a novel mechanism for voting that more accurately represents the preferences of voters [^1]. By allowing voters to signal the strength of their preference for different options at increasingly cost, quadratic voting allows for small minorities with very strong preferences to be weighted more optimally against large groups with very weak preferences.
+
+RadicalXChange is the organization promoting and researching applications of these new approaches to voting, and they ran a hackathon to apply the conceptto ownership associations (such as Home Owner Associations). By focusing on the problems of these real world institutions, we are learning how some of the abstract ideas from RadicalxChange can be applied in practical settings.
+
 Co-Up was the winner of the GitxChange hackathon on “[Open-Source Package For Quadratic Funding And Voting In Ownership Associations](https://gitcoin.co/issue/RadicalxChange/GitxChange/1/100023819)” in June 2020.
 
-Check out ([the Github repository](https://github.com/moarsel/co-up), or the [live demo](https://master.d37f8su7ed1a90.amplifyapp.com/)
-
-The hackathon challenge was scoped to address the needs of specific ownership associations (such as Home Owner Associations). By focusing on the problems of these real world institutions, we are learning how some of the abstract ideas from RadicalxChange can be applied in practical settings.
+Check out ([the Github repository](https://github.com/moarsel/co-up), or the [live demo](https://master.d37f8su7ed1a90.amplifyapp.com/)).
 
 # Co-Up
 
@@ -25,25 +27,31 @@ The problem space that Co-Up seeks to address is expansive and relatively unexpl
 
 ## Design
 
-The fun part of this design process was playing around with multiple ways of doing the quadratic funding voting mechanism. How can we make quadratic price increases as intuitive as traditional one-person-one-vote?
+The most fun part of this design process was playing around with multiple ways of doing the quadratic funding voting mechanism. How can we make quadratic price increases as intuitive as traditional one-person-one-vote?
+
+I took a lot of inspiration from video game design, which has much more complex mechanics, but makes them fun, intuitive, and even a little addictive.
+
+<img src="/video-games.png" width="440px"/>
+
+I played around with multiple ideas to portray the familiar concept of a ballot box along with ways to control the box with common UI patterns.
 
 <img src="/voting-iteration.png" alt="several design iterations for a voting UI" class="feature-image">
 
-I took a lot of inspiration from video game design, which has much more complex mechanics, but makes them fun (and even addictive...).
+Eventually, I landed on a straightforward button but with a really fun interaction that shows the cost of each further vote.
 
-<img src="/video-games.png" width="340px">
-
-<video controls autoplay muted src="/vote-micro-interaction.mp4" class="feature-image" >
-
-Here's another quick concept:
-
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="feature-image" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FoGpPhZqV3peVKvbv6MLeOe%2FQuadratic-voting%3Fnode-id%3D2%253A110%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+<video loop autoplay controls>
+  <source src="/vote-micro-interaction.mp4" type="video/mp4" />
+</video>
 
 ## Product thesis
 
-Although the current version of Co-Up does not meet the lofty long term goals, future versions could outperform competing products and processes in terms of fairness, inclusivity, transparency, and barriers to entry.
+Although the current version of Co-Up does not meet my lofty long term goals, I do think future versions could easily outperform similar products in the sector in terms of fairness, inclusivity, transparency, and ease of use.
 
-The first category of problem that Co-Up seeks to help its users with is the unfairness of traditional decision making processes. The problems with one-person-one-vote and majoritarian decision making are [well documented](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=1649&context=law_and_economics) in the RadicalxChange community. The initial Co-Up prototype implemented a form of quadratic voting that partially solved the unfairness problem. However, one theme of the feedback on the app was the lack of clarity about how to use the voting mechanism (who should be included? How often? What type of proposal can be submitted, and by whom?). Voting doesn’t happen in a vacuum, but in the context of an agreed upon deliberation and decision making process.
+If you're curious, here is the reasoning behind Co-Up as a product.
+
+The first category of problem that Co-Up seeks to help its users with is the unfairness of traditional decision making processes. The problems with one-person-one-vote and majoritarian decision making are [well documented](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=1649&context=law_and_economics) in the RadicalxChange community.
+
+The initial Co-Up prototype implemented a form of quadratic voting that partially solved the unfairness problem. However, one theme of the feedback on the app was the lack of clarity about how to use the voting mechanism (who should be included? How often? What type of proposal can be submitted, and by whom?). Voting doesn’t happen in a vacuum, but in the context of an agreed upon deliberation and decision making process.
 
 _Robert’s Rules of Order_ are the most common codification of a group decision making process, and have been refined over [12 editions and 144 years](https://en.wikipedia.org/wiki/Robert%27s_Rules_of_Order#Changes_between_editions). Despite the maturity of this framework, there are several [opportunities for improvement](http://kronosapiens.github.io/blog/2019/05/08/against-voting.html) in this process. Namely, Robert’s rules assume a process of majoritarian decision making, then proceed to bake in several kludges to protect [the rights of minorities](https://en.wikipedia.org/wiki/Principles_of_parliamentary_procedure#Minority_rights) (but only in certain scenarios deemed important enough, such as introducing new proposals). Our goal with Co-Up is not necessarily to codify a complete replacement to Robert’s rules, but to embed quadratic voting within a robust decision making process that is consistent and clear.
 
@@ -57,10 +65,12 @@ Traditional decision making processes also tend to lack transparency. There is a
 
 The last category of problem that Co-Up can help solve is the high barrier to entry when forming a governing body. There is a high logistical and financial cost when setting up sustainable group governance, limiting the number of groups that can form. A comparison can be made to other software platforms that lower start up costs, and subsequently increase the size of a given market (e.g. [Patreon](patreon.com), [Substack](https://substack.com/), and [Open Collective](https://opencollective.com/)).
 
-Like traditional association management software, Co-Up can lower the costs of managing an association by providing membership management, fundraising, and collaboration tools. The current Co-Up prototype is limited to a single group within an organization, but designing a federated model will allow for more flexible and organic group formation. In the future, empowering these groups with fundraising capabilities and API integrations will enable Co-Up to enable more new organizations to proliferate.
+Like traditional association management software, Co-Up can lower the costs of managing an association by providing membership management, fundraising, and collaboration tools. The current Co-Up prototype is limited to a single group within an organization, but using a federated model that would allow for more flexible and organic group formation. In the future, empowering these groups with fundraising capabilities and API integrations will enable Co-Up to enable more new organizations to proliferate.
 
 ## Next steps
 
 The prototype was an experiment aimed at smashing these high level goals into our current reality to see what happened. Our user feedback shows that there is a long way to go but the playfulness and clarity of th prototype does show that it is possible to distill quadratic voting into a form that is at least understandable and intriguing to communities.
 
-Although core features still need to be added, I'm still exploring the problem space with an eye on finding product-market fit. I believe we’re still early stages of this exploration, and the more real world examples we can test, the better chance we have of turning the ideas into reality.
+Although core features still need to be added, I'm still learning about the problem space with an eye on making these important ideas more digestible to the average voter. I believe we’re still early stages of this exploration, and the more real world examples we can test, the better chance we have of turning the ideas into reality.
+
+[^1]: For social choice theory nerds, QV arguably solves Condorcet's paradox, and Arrow's impossibility theorem.

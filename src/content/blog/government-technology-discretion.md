@@ -1,6 +1,7 @@
 ---
-title: Improving government technology by allowing for discretion
-description: How telling white lies can make you a better teacher
+title: Breaking Down the Rules for Better Government Technology
+description: Why government technology initiatives require civil servants to have more discretion, not less.
+isFeatured: true
 publishDate: 'July 2 2024'
 ---
 
@@ -29,11 +30,13 @@ But we easily can see the dilemma when we zoom out: we’re caught in a systemic
 
 I believe this is a false dilemma. If we want to fix the way government buys technology, we need to look at the whole system and rethink what discretion and accountability should look like.
 
-The first way we should adjust our mindset is to face the reality that creating rules has fundamental limitations in limiting employee discretion. In The Machinery of Government: the Ethics of Public Administration (from which many of these ideas originate), Joseph Heath examines ethical basis for relying on discretion in government as well as the risks of trying to eliminate it. Firstly, he points out, eliminating discretion is impossible and counterproductive:
+The first way we should adjust our mindset is to face the reality that creating rules has fundamental limitations in limiting employee discretion. In _The Machinery of Government: the Ethics of Public Administration_ (from which many of these ideas originate), Joseph Heath examines ethical basis for relying on discretion in government as well as the risks of trying to eliminate it.
 
-> “De facto discretion often arises as a perverse consequence of attempts made to limit it. Discretion is sometimes like the proverbial bump under the carpet—it can be moved around but not eliminated. In other cases, the attempt to limit discretion winds up increasing it.” [^4]
+Firstly, he points out, eliminating discretion is impossible and counterproductive:
 
-Heath points to several common situations where the rules aimed at limiting discretion invariably lead to failure, which I've applied to government and technology:
+> De facto discretion often arises as a perverse consequence of attempts made to limit it. Discretion is sometimes like the proverbial bump under the carpet—it can be moved around but not eliminated. In other cases, the attempt to limit discretion winds up increasing it. [^4]
+
+Heath points to several common situations where the rules aimed at limiting discretion invariably lead to failure, which I've applied to the context of government technology procurement (a.k.a. the way government buys technology):
 
 1. **Runaway rules**
 
@@ -45,7 +48,7 @@ To ensure good results within the limits of these rules, savvy bureaucrats will 
 
 In cases where rules have proliferated and accumulated in this way, it’s common for there to be contradictory rules. In systems where dozens or hundreds rules have been added to add more oversight, decision makers actually find themselves in a position where they get to choose which rules should apply. A simple example is procurement rules that don’t appreciate the iron triangle of project management, sometimes expressed as “You can have it good, fast, or cheap. Choose two”. Rules that invariably require all three inevitably set up decision makers to use their discretion even if, on paper, all three criteria are required (the ArriveCan app is probably an extreme example of this). In modern software development, this problem is largely solved by allowing project scope to be variable while keeping quality and timelines fixed, but traditional government procurement requires vendors to bid for a fixed scope of work.
 
-3. **Inadequate resources to enforce rules **
+3. **Inadequate resources to enforce rules**
 
 The more rules a system has, the more effort is required to enforce them. It’s incredibly common for whoever is responsible for enforcing the rules to have inadequate resources to do so. Whoever is responsible for enforcing the rules then has to use their discretion about which rules are most important and how they choose to enforce them. This happens in procurement as well, but a classic example would be tax auditors and police, who have no chance of enforcing all the rules and therefore have to use their discretion. Another example would be means-tested benefits.
 
@@ -57,9 +60,15 @@ There are many types of work where we’d want people to follow a set of rules b
 
 It’s very common for government to be responsible for delivering benefits or services for which there is not enough to go around. In public housing, for example, it is common to use queues and eligibility criteria to triage housing units for those who need them the most. Even when the rules around these are strict, budgets grow or shrink the amount of resources over time and front line staff inevitably use discretion to decide and prioritize on a case by case basis. So while the formal rules may assume a uniform process is followed, front line workers may be forced to use their discretion to interpret what decisions best accomplish the bigger objectives. [^5]
 
-So we can see how self defeating it is to try to create accountability by creating rules limiting discretion. But we’re still left with the question of how we create accountability and scale it across an organization with hundreds of thousands of people? Well one helpful starting point is that the discretion is already there, we just don't like talking about it.
+So we can see how self defeating it is to try to create accountability by creating rules limiting discretion. But we’re still left with the question of how we create accountability and scale it across an organization with hundreds of thousands of people.
 
-In an organization with 100s of thousands of people, the vast majority of decisions are just factually not decided by rules, people are influenced just as much by culture and circumstance. Heath gives the example of police: with thousands of laws to enforce, police inevitably have a lot of discretion to pick and choose what gets enforced. However, within a given jurisdiction, the norms and values of the department and expectations of colleagues make those decisions relatively predictable [cite and re-read]. This points to a promising area to focus on if we want to improving outcomes and accountability: the hard work of shifting internal culture via onboarding, education, institutional norms, internal incentives, mindsets, and values.
+There are no silver bullets. The amount of scrutiny that can be applied from the top of the bureaucracy down is is limited. It's also hard to expect regular citizens can apply accountability across the entire government. For example, transparency laws are a good approach that enables more bottom up accountability to the public. Freedom of information requests, for example, can be beneficial in enabling citizens to have insight into their government. But they often fail the same way as other rules: they add more work for people who are willing to follow the rules, and are easily bypassed by people who aren't.
+
+A more helpful starting point may be to recognize that in an organization with 100s of thousands of people, the vast majority of decisions are already left to discretion, and civil servants mostly make good use of their discretion. Culture, circumstance, and incentives are a much bigger factor in decision making than explicit rules. Heath gives the example of the police: with thousands of laws to enforce, police inevitably have a lot of discretion to pick and choose what gets enforced. However, within a given jurisdiction, the norms and values of the department and expectations of colleagues make those decisions relatively predictable.
+
+This points to a promising area to focus on if we want to improving outcomes and accountability: the hard work of shifting internal culture via onboarding, education, mentorship, setting institutional norms, internal incentives, mindsets, and values.
+
+If we want government to deliver technology solutions that meet the expectations of the public, an excellent workplace culture, expertise, and a strong public sector ethos are not just important details to consider after we perfect our procurement rules. These things are necessary for building the trust that's required for employees to be empowered to make decisions, and to remove the tangle of rules that makes their job more difficult.
 
 [^1]: Please correct me if I'm wrong but some searching put [Federal level employees at 357,247 vs 220,000 for Weston](https://duttonlaw.ca/the-largest-employers-in-canada/) and the US is [2.79 million civil Federal service employees](https://en.wikipedia.org/wiki/United_States_federal_civil_service) vs. [1.6 million at Walmart](1.6 million)
 [^2]: Amanda Clarke and Sean Boots have [excellent writing on the issue](https://policyoptions.irpp.org/magazines/february-2024/arrivecan-deeper-reforms/)
