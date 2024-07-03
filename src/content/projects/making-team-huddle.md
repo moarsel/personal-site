@@ -10,7 +10,7 @@ seo:
 
 # The Idea
 
-There are a lot of things that just can't be organized using spreadsheets and generic content management systems. At the digital marketing agency where I used to work, we we're trying to track lots of related data, but despite our best efforts, the organization of it was an impenetrable mess. After looking at a bunch of tools that were either a) too generic or b) overcomplicated for our needs, I decided to try my hand at building a custom content management system for tracking our tasks and outreach activities.
+In 2013, at the digital marketing agency where I used to work, we were trying to track lots of related data, but despite our best efforts, the organization of it was an impenetrable mess. After looking at a bunch of tools that were either a) too generic or b) overcomplicated for our needs, I decided to try my hand at building a custom content management system for tracking our tasks and outreach activities.
 
 ## The App
 
