@@ -27,8 +27,6 @@ The Procurement [Practice Review of ArriveCAN](https://opo-boa.gc.ca/praapp-pror
 
 But we easily can see the dilemma when we zoom out: we’re caught in a systemic failure to create accountability, but the tool we’re using to solve it is recreating the problem. From the traditional top down mindset it might feel like we either have to choose between more accountability but with rules that slow things down, or less rules, more discretion, and higher risk of abuse and waste. There is the sense that “one person’s red tape is another persons due process” [^3].
 
-[ Cascading loss of trust and discretion diagram. ]
-
 I believe this is a false dilemma. If we want to fix the way government buys technology, we need to look at the whole system and rethink what discretion and accountability should look like.
 
 The first way we should adjust our mindset is to face the reality that creating rules has fundamental limitations in limiting employee discretion. In The Machinery of Government: the Ethics of Public Administration (from which many of these ideas originate), Joseph Heath examines ethical basis for relying on discretion in government as well as the risks of trying to eliminate it. Firstly, he points out, eliminating discretion is impossible and counterproductive:
