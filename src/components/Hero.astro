@@ -22,10 +22,12 @@ const hero = siteConfig.hero;
                     )}
                 </div>
                 {hero.image?.src && (
-                    <figure>
-                        <img class="w-full shadow rounded-lg" src={hero.image.src} decoding="async" alt={hero.image.alt || ''} />
-                        {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.alt}</figcaption>}
-                    </figure>
+                    <div class="shadow-lg rounded-lg overflow-hidden">
+                        <figure class="relative w-full motion-safe:animate-scaleup ">
+                            <img class="w-full  motion-safe:animate-burns origin-top-right" src={hero.image.src} decoding="async" alt={hero.image.alt || ''} />
+                            {hero.image.caption && <figcaption class="mt-1.5 text-xs sm:text-sm">{hero.image.alt}</figcaption>}
+                        </figure>
+                    </div>
                 )}
             </div>
         </section>

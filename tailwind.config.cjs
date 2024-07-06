@@ -4,6 +4,20 @@ module.exports = {
     content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
     darkMode: 'class',
     theme: {
+        keyframes: {
+            burns: {
+                '0%': { transform: 'scale(.98)' },
+                '100%': { transform: 'scale(1.05)' }
+            },
+            scaleup: {
+                '0%': { transform: 'scale(0.3)' },
+                '100%': { transform: 'scale(1)' }
+            }
+        },
+        animation: {
+            burns: 'burns 5s ease forwards',
+            scaleup: 'burns 3s ease forwards'
+        },
         fontFamily: {
             sans: ['Inter', ...defaultTheme.fontFamily.sans],
             serif: ['Newsreader', ...defaultTheme.fontFamily.serif]
