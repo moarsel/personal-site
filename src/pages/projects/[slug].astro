@@ -34,8 +34,8 @@ const { Content } = await project.render();
             <FormattedDate date={publishDate} />
             {
                 seo?.image?.src && (
-                    <div class="relative">
-                        <img transition:name={project.slug} class="feature-image motion-safe:animate-burns" src={'/' + seo?.image?.src} alt={seo?.image?.alt} />
+                    <div class="feature-image rounded-lg overflow-hidden shadow-lg">
+                        <img transition:name={project.slug} class="motion-safe:animate-burns" src={'/' + seo?.image?.src} alt={seo?.image?.alt} />
                     </div>
                 )
             }
