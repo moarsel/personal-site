@@ -11,7 +11,7 @@ module.exports = {
             }
         },
         animation: {
-            burns: 'burns 4s ease forwards'
+            burns: 'burns 1s ease forwards'
         },
         fontFamily: {
             sans: ['Inter', ...defaultTheme.fontFamily.sans],
