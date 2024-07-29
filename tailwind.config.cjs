@@ -7,11 +7,11 @@ module.exports = {
         keyframes: {
             burns: {
                 '0%': { transform: 'scale(1)' },
-                '100%': { transform: 'scale(1.05)' }
+                '100%': { transform: 'scale(1.02)' }
             }
         },
         animation: {
-            burns: 'burns 1s ease forwards'
+            burns: 'burns .1s ease forwards'
         },
         fontFamily: {
             sans: ['Inter', ...defaultTheme.fontFamily.sans],
