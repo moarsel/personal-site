@@ -71,19 +71,14 @@ module.exports = {
                             fontSize: '1.3125em',
                             fontStyle: 'italic',
                             fontWeight: 'normal',
+                            borderRadius: '1rem',
                             lineHeight: 1.4,
-                            paddingLeft: 0,
+                            padding: '0.1rem 1.3rem',
+                            backgroundColor: 'rgb(var( --color-bg-muted) / 100)',
                             '@media (min-width: theme("screens.sm"))': {
-                                fontSize: '1.66667em',
+                                fontSize: '1.3125em',
                                 lineHeight: 1.3
                             }
-                        }
-                    }
-                },
-                lg: {
-                    css: {
-                        blockquote: {
-                            paddingLeft: 0
                         }
                     }
                 }
