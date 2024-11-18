@@ -1,5 +1,5 @@
 ---
-title: Are we pulling the right levers on digital transformation?
+title: Are we Pulling the Right Levers on Digital Transformation?
 description: How to prioritize the right thing when trying to fix a complex system like government digital service delivery.
 publishDate: 'Oct 7 2024'
 ---
@@ -11,6 +11,7 @@ As I [wrote about previously](/government-technology-discretion), software deliv
 So what are some better ways to tackle these problems? If you want a concrete list, Amanda Clarke and Sean Boots have given [excellent recommendations that are very well substantiated](https://amandaclarke.ca/wp-content/uploads/2024/07/2024-06-28-Breaking-All-the-Rules-Information-Technology-Procurement-in-the-Government-of-Canada-for-distribution.pdf). This article is a more abstract exploration about what the highest leverage focus areas might be. To guide this, I’m using infamous systems thinker Donnella Meadows’ advice on finding high leverage points for change within a system. I'll be referencing her book _Thinking In Systems: a Primer_, but ([here is a good summary of the work](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/)).
 
 ## The Service Delivery System
+
 First, let’s sketch out the system in broad strokes to give us an idea of how it works and where the levers even are before we start pulling on things. In the spirit of "All models are wrong, but some are useful”, here’s how governmental digital initiatives work:
 
 ￼![drawing of a three tiered piramid where a single person at the top is accountable to a broad group at the base but the layers in the middle are accountable to the person at the top](/accountability-pyramid.png)
@@ -66,7 +67,7 @@ This is true at higher levels of the system: passing laws, adjusting budgets, an
 
 On the other hand I’d argue that digital service delivery is a bit of a special case here, because small changes can be done quickly and continuously.
 
-Decreasing the delay between when a service starts being built and when it receives public feedback would considerably improve quality, and this delay is so long right now that I’m not even a little bit worried of it becoming to frequent. 
+Decreasing the delay between when a service starts being built and when it receives public feedback would considerably improve quality, and this delay is so long right now that I’m not even a little bit worried of it becoming to frequent.
 
 In software, giving a demo of working software sooner is a reliable way of improving a product. In a similar vein, in procurement, ending contracts with vendors that don't demonstrate frequent progress can save tons of money. The only limitation to using this lever right now is only for legacy systems that can’t keep pace with modern development cycle times.
 
@@ -80,7 +81,7 @@ In this case we can think of all the cases of literal regulation, or rule making
 
 The ability to correct from failure is critically important. A timely, precise, and proportionate response to a service delivery failure can be highly effective. I’d even argue that, overall, rulemaking in this way has made liberal democracies an extremely effective way to deliver services that residents collectively want. But overuse of rules as a feedback mechanism has made them increasingly disconnected from the outcomes intended by those rules. The way they are currently used, they frequently disincentivize failure in a subtle but critical way: because of fear of failure at multiple levels of the hierarchy, people use “following the rules” to _hide_ failure rather rather than correct it.
 
-Luckily, there are other, more effective feedback mechanisms to keep service delivery in check. Modern practices like user research, iterative development with weekly demos, beta testing, and staged rollouts can catch assumptions and potential failures in a direct, actionable way before they get “too big to fail”. 
+Luckily, there are other, more effective feedback mechanisms to keep service delivery in check. Modern practices like user research, iterative development with weekly demos, beta testing, and staged rollouts can catch assumptions and potential failures in a direct, actionable way before they get “too big to fail”.
 
 ### 7. The gain around driving positive feedback loops.
 
@@ -88,7 +89,7 @@ Contrary to how the name sounds, positive feedback loops are not always a good t
 
 > A negative feedback loop is self-correcting; a positive feedback loop is self-reinforcing. The more it works, the more it gains power to work some more. … Positive feedback loops are sources of growth, explosion, erosion, and collapse in systems. A system with an unchecked positive loop ultimately will destroy itself. That’s why there are so few of them.
 
-It seems like these are more rare in a slowly changing system like government, but consider again the erosion of trust in government’s ability to deliver. The case of ArriveCan demonstrates the case well. 
+It seems like these are more rare in a slowly changing system like government, but consider again the erosion of trust in government’s ability to deliver. The case of ArriveCan demonstrates the case well.
 
 The inability to meet resident expectations puts pressure on political leaders who then put pressure on the executive branch, who put pressure on policy makers to put more rules on civil servants, who then have less discretion than they need to deliver services that meet resident expectations. This complex chain of events is self reinforcing and creates a vicious cycle that is demoralizing and self-fulfilling.
 
@@ -96,7 +97,7 @@ There may be ways that leaders within an organization can mitigate this cycle, b
 
 ### 6. The structure of information flows (who does and does not have access to information).
 
-This one is intuitively important: if the issue we keep circling is the multiple levels of hierarchy in the feedback loop, then restructuring information flows can be a quick and powerful leverage point. We can more effectively fix the discrepancy in service expectations vs. reality with better information flow between the people actually delivering the service and the public (as well as their representatives). This is why “working in the open” has been a core tenet of the civic tech movement. 
+This one is intuitively important: if the issue we keep circling is the multiple levels of hierarchy in the feedback loop, then restructuring information flows can be a quick and powerful leverage point. We can more effectively fix the discrepancy in service expectations vs. reality with better information flow between the people actually delivering the service and the public (as well as their representatives). This is why “working in the open” has been a core tenet of the civic tech movement.
 
 Examples of working in the open include:
 
@@ -106,7 +107,7 @@ Examples of working in the open include:
 
 ### 5. The rules of the system (such as incentives, punishments, constraints).
 
-Changing the incentives, punishments, and constraints can jolt the system out of the vicious cycle it is stuck in. There’s no reason we couldn’t have a culture that celebrates good outcomes instead of just rewarding adherence to rules. Making this change is by no means easy, but in many ways, these changes are much easier than many of the interventions listed above. 
+Changing the incentives, punishments, and constraints can jolt the system out of the vicious cycle it is stuck in. There’s no reason we couldn’t have a culture that celebrates good outcomes instead of just rewarding adherence to rules. Making this change is by no means easy, but in many ways, these changes are much easier than many of the interventions listed above.
 
 Examples of this type of intervention include:
 
@@ -116,7 +117,7 @@ Examples of this type of intervention include:
 
 ### 4. The power to add, change, evolve, or self-organize system structure.
 
-Underlying the movement away from process and rules based incentives there is a pre-requisite to give civil servants more discretion in how they do their jobs. Political leaders can dictate the “what”, but “how” service is delivered should be up to the people delivering the service. 
+Underlying the movement away from process and rules based incentives there is a pre-requisite to give civil servants more discretion in how they do their jobs. Political leaders can dictate the “what”, but “how” service is delivered should be up to the people delivering the service.
 
 I covered this in detail in the previous post, but I’ll highlight one specific aspect here: the ability to experiment, fail, and learn in order to evolve is a crucial requirement for delivering modern digital services. It is also really difficult:
 
@@ -126,13 +127,13 @@ Making this shift is incredibly difficult culturally, but relatively minor inter
 
 ### 3. The goals of the system.
 
-Traditionally, the executive branch has been all about executing projects with a fixed, predetermined scope on time on budget. The “goal” is seen as collecting requirements up front and delivering a finished product. 
+Traditionally, the executive branch has been all about executing projects with a fixed, predetermined scope on time on budget. The “goal” is seen as collecting requirements up front and delivering a finished product.
 
 This approach works for building a bridge, but not a service that needs to be responsive to changing public expectations. Modern technology organizations build permanently funded products that are staffed for learning and growing over time. These products still have budget and time constraints, but instead of spinning up projects and calling it a day, there is an underlying assumption that the underlying service and products need to continuously improve over several years. This means there is less pressure to solve every problem in one go.
 
 ### 2. The mindset or paradigm out of which the system — its goals, structure, rules, delays, parameters — arises.
 
-From what I've seen, the most common mindset in government right now (especially at the Federal level) is fear driven: avoiding bad headlines is a strong incentive because it activates the organization's immune system to make more rules. 
+From what I've seen, the most common mindset in government right now (especially at the Federal level) is fear driven: avoiding bad headlines is a strong incentive because it activates the organization's immune system to make more rules.
 
 We need to shift to a mindset that empowers all levels of the bureaucracy to be accountable for customer satisfaction. Successful companies trust and empower their front line staff and value their proximity to customers as an important feedback mechanism. Rather than shielding public servants, we should follow the same approach.
 
@@ -148,4 +149,4 @@ I think Audrey Tang [points to a new model](https://www.thesitemagazine.com/audr
 
 > Instead of trusting the government to make good use of public resources, the government instead trusts the civil society, trusts the entire society to make good use of the shared common data.
 
-The current structure of how we deliver services has done a pretty good job, historically. It is built on a certain mechanism of accountability, but it doesn't incentivize trust building. The executive branch needs to trust the public enough to bring them into service delivery. We need to start viewing citizens as co-creators of public value, not just service recipients. 
+The current structure of how we deliver services has done a pretty good job, historically. It is built on a certain mechanism of accountability, but it doesn't incentivize trust building. The executive branch needs to trust the public enough to bring them into service delivery. We need to start viewing citizens as co-creators of public value, not just service recipients.

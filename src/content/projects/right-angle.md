@@ -1,5 +1,5 @@
 ---
-title: 'Right Angle: making internet arguments less bad'
+title: 'Right Angle: Making Internet Arguments Less Bad'
 publishDate: 2015-05-15 11:09:38
 description: 'Designed and prototyped a solution to bad arguments on the internet.'
 seo:

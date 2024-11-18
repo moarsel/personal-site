@@ -1,5 +1,5 @@
 ---
-title: Becoming a better teacher by lying
+title: Becoming a Better Teacher by Lying
 description: How telling white lies can make you a better teacher.
 publishDate: 'Aug 30 2023'
 ---
